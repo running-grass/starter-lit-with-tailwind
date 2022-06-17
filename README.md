@@ -21,4 +21,4 @@ pnpm run dev
 
 ## 代替方案
 1. twind 采用`constructible stylesheets`的方案，和tailwind兼容，在运行时构建样式表
-2. 
+2. Lit不使用ShadowDOM。但是这样slot就不能用了

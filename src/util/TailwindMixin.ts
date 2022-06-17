@@ -3,7 +3,7 @@ export const TW = <T extends LitMixin>(superClass: T): T =>
     connectedCallback() {
       super.connectedCallback();
 
-      document.head.querySelectorAll("link[rel='stylesheet']").forEach((link) => {
+      document.head.querySelectorAll("#tailwind-global-css").forEach((link) => {
         this.shadowRoot.append(link.cloneNode());
       });
     }
