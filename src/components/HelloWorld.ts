@@ -7,6 +7,6 @@ import { TW } from "../util/TailwindMixin";
 @customElement("x-hello-world")
 export class HelloWorld extends TW(LitElement) {
   render(): TemplateResult {
-    return html` <h1 class="text-2xl">Hello world!</h1> `;
+    return html` <button class="btn text-2xl">Hello world!</button> `;
   }
 }
