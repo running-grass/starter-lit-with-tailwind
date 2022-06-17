@@ -11,7 +11,8 @@ pnpm run dev
 由于lit使用的是shadowDOM，样式是隔离的，所以默认不能使用tailwindcss的样式类
 
 ## 实现逻辑
-继承`LitElement`类，在`connectedCallback`的生命周期中 把全局的`link` style标签复制到shadowDOM中。 且可以做到自动精简未使用的样式。 
+~~继承`LitElement`类，在`connectedCallback`的生命周期中 把全局的`link` style标签复制到shadowDOM中。 且可以做到自动精简未使用的样式。~~
+底层使用了`constructible stylesheets`， 具体使用了lit-element的`unsafeCss`和`adoptStyles`来完成。
 同时支持@layer component和@apply
 
 ## 不足之处
