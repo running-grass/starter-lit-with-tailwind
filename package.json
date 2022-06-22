@@ -1,7 +1,6 @@
 {
-  "name": "tailwind-lit",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "starter-lit-with-tailwind",
+  "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",
