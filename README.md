@@ -2,7 +2,7 @@
 
 A boilerplate using Vite, Lit and Tailwind CSS.
 
-Implement with [constructiblestructible  stylesheets](https://github.com/WICG/construct-stylesheets/blob/gh-pages/explainer.md)
+Implement with [constructible stylesheets](https://github.com/WICG/construct-stylesheets/blob/gh-pages/explainer.md)
 
 ## Usage
 ```bash
